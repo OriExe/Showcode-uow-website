@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-color: white;
 }
-.thingy:after {
+.cat:after {
     content: "";
     display: table;
     clear: both;
