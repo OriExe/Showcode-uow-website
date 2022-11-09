@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="refugee,charity,information">
+        <link rel="stylesheet" href="homepage.css">
+        <link rel="stylesheet" href="PopupWindow.css">
+        <link rel="stylesheet" href="LanguagePopupWindow.css">
+        <title>Refugee Information Sources</title>
+        <script src="Popup.js"></script>
+    </head>
+    
+    <body>
+        <div class="Popup" id="Isactive">
+            <div class="Website_Logo_div">
+                <img class="Website_Logo_Image" src="Logo.png">
+                <h2 class="Website_Logo">Refugee Information Sources</h2>
+            </div>
+            <div class="Nationtially">
+                <h2 class="EYN_text">Enter your nationatially</h2>
+                <input class = "EnterCountryBox" type="text" placeholder="Enter Country...">
+                <button class="SkipButton" onclick="removePopup()">Skip</button>
+            </div>
+            <div class="ChangeLanguage">
+                <h3 class="CL_text">Change Language</h3>
+                <input type="image" class="CL_Flag" src="Uk flag.png" width="200" height="100" onclick="LanguagePopup()">
+            </div>
+            <div class="LanguagePopup" id="">
+                <ul>
+                    <li>
+                        <img src="Spain flag.png">
+                        Español
+                    </li>
+                    <li>
+                        <img src="French flag.png">
+                        Français
+                    </li>
+                    <li>
+                        <img src="Uk flag.png">
+                        English
+                    </li>
+                </ul>
+            </div>
+            <div class="BackgroundOverlay"></div>
+        </div>
+        <div class="nav">
+            <img src="iconname.png" width=100 height=80>
+            <a class="active" href="#home">Home</a>
+            <a href="#charities">charities</a>
+            <a href="#Locations">Locations</a>
+            <a href="#about">About</a>
+            <input type="text" placeholder="Search.." size="40">
+          </div>
+        <form class="cat">
+            <div class="column">
+                <h1 >Looking for a safe
+                    home for you or your
+                    family?</h1>
+                <h3 >There are tons of countries that accept
+                    asylums and charities that are looking
+                    to help</h3> 
+                <a class="active" href="#chaity">Charity</a>
+            </div>
+            <div class="column">
+                <p >TO RECEIVE EMAILS ABOUT NEW CHARITIES AND OPPORTUNITIES<p>
+                <h1 >Create A new
+                    Account</h1> 
+                <p>Already Registered? Login</p>
+            </div>
+            <form class="column">
+                
+                    <div class="cen">
+                    
+                        
+                            <div class="shadow" style="width:200px">
+                                
+                                    <div class="col-white">
+                                        Name:
+                                        <br>
+                                        <input class="bspace" type="text" name="Name" >
+                                        <br>
+                                        Email:
+                                        <br>
+                                        <input class="bspace" type="text" name="Email">
+                                        Password:
+                                        <br>
+                                        <input class="bspace" type="text" name="Password" >
+                                        
+                                        <div class="cent" colo>
+                                            <a href="" target="_self">Sign Up</a>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>  
+            </form>        
+        </form> 
+        <h1 style="text-align: center;">We'll help you find the perfect place</h1>
+        <select name="" id="Currency_DropDownBox">
+            <option value="USD $">USD $</option>
+            <option value="GBP £">GBP £</option>
+            <option value="EUR €">EUR €</option>
+        </select>
+        <table class="CountryTable">
+            <tr>
+                <th>City</th>
+                <th>Living Cost</th>
+                <th>Public Transport <br>Cost</br> </th>
+                <th>Taxes</th>
+                <th>Work</th>
+                <th>Community</th>
+                <th>How Familiar <br>to home</br></th>
+                <th>Language</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="French flag.png">
+                    Paris
+                </td>
+                <td>[PlaceHolder]</td>
+                <td>$1.91 for 1 journey on the metro</td>
+                <td>[PlaceHolder]</td>
+                <td>[PlaceHolder]</td>
+                <td>[PlaceHolder]</td>
+                <td>[PlaceHolder]</td>
+                <td>[PlaceHolder]</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="England flag.png">
+                    London
+                </td>
+                <td>[PlaceHolder]</td>
+                <td>Minimun $1.90</td>
+                <td>[PlaceHolder]</td>
+                <td>[PlaceHolder]</td>
+                <td>[PlaceHolder]</td>
+                <td>[PlaceHolder]</td>
+                <td>[PlaceHolder]</td>
+            </tr>
+        </table>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172850.3017179254!2d-0.508293046895962!3d51.629957322542396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00ba11ae26f%3A0x2ff173e384b8e98b!2sGreater%20London!5e0!3m2!1sen!2suk!4v1667960358283!5m2!1sen!2suk" width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </body>
+</html>

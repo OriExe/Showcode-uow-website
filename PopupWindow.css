@@ -1,0 +1,99 @@
+.Popup h2{
+    font-size: 30px;
+    color: white;
+    text-align:left;
+}
+.Popup h3{
+    font-size: 20px;
+    color: white;
+}
+.Popup{
+    visibility: hidden;
+    pointer-events: none;
+}
+.Popup#Isactive{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    visibility: visible;
+    pointer-events: all;
+}
+
+.BackgroundOverlay{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: all;
+    background-color: rgba(0,0 ,0 , 0.2);
+    
+}
+
+.Nationtially{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.EYN_text{
+    width: 405%;
+    margin-left: -41%;
+}
+.SkipButton{
+    margin-left: -8%;
+    transform: translate(0px,10px);
+    width: 201px;
+    height: 33px;
+    font-size: 23px;
+    transition: opacity 2s;
+    opacity: 1;
+}
+.SkipButton:hover{
+    opacity: 0.5;
+}
+.EnterCountryBox{
+    width: 201px;
+    height: 33px;
+    font-size: 25px;
+    border-radius: 11px;
+    margin-left: -11px;
+}
+.Website_Logo_div{
+    position: absolute;
+    width: 100px;
+    left: 0;
+    right: 8%;
+    margin: auto;
+    
+}
+.Website_Logo{
+    width: 426px;
+    margin-top: -44%;
+    
+}
+.Website_Logo_Image{
+    margin-left: -67%;
+    width: 50px;
+}
+.ChangeLanguage{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    margin: auto;
+}
+.CL_text{
+    margin-left: 7%;
+}
+.CL_Flag{
+    margin-right: 15px;
+}
+

@@ -1,0 +1,25 @@
+.LanguagePopup{
+    position: absolute;
+    bottom:27%;
+    right: 1%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+.LanguagePopup#Isactive{
+    visibility: visible;
+    opacity: 1;
+}
+.LanguagePopup ul{
+    list-style: none;
+    border: 5px solid black;
+    width: 386px;
+    border-radius: 12.5px;
+    background-color: white;
+}
+.LanguagePopup img{
+    width: 100px;
+}
+.LanguagePopup li{
+    font-size: 69px;
+}
